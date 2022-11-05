@@ -1,5 +1,9 @@
 import React from 'react'
 import { RiPlayFill } from "react-icons/ri";
+import img_1 from "./assets/img_1.png"
+import figma from "./assets/figma.png"
+import sketch from "./assets/sketch.png"
+import adobexd from "./assets/adobexd.png"
 function MainHome() {
   return (
     <section className="min-h-[92vh] grid grid-cols-1 md:grid-cols-8  gap-8 md:gap-0">
@@ -22,11 +26,11 @@ function MainHome() {
                     </div>
                 </div>
                 <div className=" md:col-span-3 flex items-center justify-center relative p-20 md:p-4">
-                    <img src="img_1.png" className="w-96 h-96 object-cover "/>
+                    <img src={img_1} className="w-96 h-96 object-cover "/>
                     <div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2  bg-[#c2edff] border-[#27446f] rounded-full -z-10 w-[330px] h-[330px] border-[10px]"></div>
-                    <img src="figma.png" className="w-20 h-20 object-cover rounded-full border-l-8 border-gray-700 absolute top-[5%] right-[5%] md:top-[25%] md:right-[10%]"></img>
-                    <img src="sketch.png" className="w-20 h-20 absolute top-[5%] right-[80%] md:top-[15%] md:right-[100%]"></img>
-                    <img src="adobexd.png" className="w-20 h-20 object-cover rounded-full border-l-8 border-gray-700 absolute bottom-[0%] left-[%] md:bottom-[15%] md:right-[50%]"></img>
+                    <img src={figma} className="w-20 h-20 object-cover rounded-full border-l-8 border-gray-700 absolute top-[5%] right-[5%] md:top-[25%] md:right-[10%]"></img>
+                    <img src={sketch} className="w-20 h-20 absolute top-[5%] right-[80%] md:top-[15%] md:right-[100%]"></img>
+                    <img src={adobexd} className="w-20 h-20 object-cover rounded-full border-l-8 border-gray-700 absolute bottom-[0%] left-[%] md:bottom-[15%] md:right-[50%]"></img>
                 </div>
             </section>
   )

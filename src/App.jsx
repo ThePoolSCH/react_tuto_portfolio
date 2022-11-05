@@ -9,10 +9,10 @@ import Footer from './components/Footer/Footer'
 function App(){
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename='/react_tuto_portfolio'>
       <NavBar/>
       <Routes>
-      <Route path='/' exact element={<Home/>}/>
+        <Route path='/' exact element={<Home/>}/>
         <Route path='/home' exact element={<Home/>}/>
         <Route path='/services' exact element={<Services/>}/>
         <Route path='/aboutUs' exact element={<AboutUs/>}/>
