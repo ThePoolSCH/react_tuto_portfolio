@@ -9,7 +9,7 @@ function DropDown() {
   const handleClick=()=> setClick(!Click)
   return (
     <ul onClick={handleClick}
-    className={Click ? 'dropdown-menu clicked' : 'dropdown-menu'}>
+    className={Click ? 'dropdown-menu clicked' : ' z-[100] dropdown-menu'}>
       {MenuItems.map((item, index) => {
         return (
           <li key={index}>

@@ -1,22 +1,22 @@
 export const MenuItems = [
     {
-        title: 'Marketing',
-        path: '/marketink',
+        title: 'Blog de Notas',
+        path: '/noteBlog',
         cName: 'dropdown-link'
     },
     {
-        title: 'Development',
-        path: '/development',
+        title: 'Water Footprint',
+        path: '/waterFootprint',
         cName: 'dropdown-link'
     },
     {
-        title: 'Design',
-        path: '/Design',
+        title: 'R.C. Landing Company',
+        path: '/epsLanding',
         cName: 'dropdown-link'
     },
     {
-        title: 'Consulting',
-        path: '/consulting',
+        title: 'Basic Game',
+        path: '/basicGame',
         cName: 'dropdown-link'
     }
 ]

@@ -1,12 +1,14 @@
 import React from 'react'
 import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
-
+import {Zoom, Fade} from 'react-reveal'; // Importing Zoom effect
 function Reviews() {
   return (
-    <div className="p-20 flex flex-col gap-16 ">
-      <h1 className="text-[40px] text-center font-black">
-        Let’s hear What they says
-      </h1>
+    <div className="p-20 flex flex-col gap-16 bg-red-100">
+      <Zoom>
+        <h1 className="text-[40px] text-center font-black">
+          Let’s hear What they says
+        </h1>
+      </Zoom>
       <div className="flex justify-center gap-4">
         <span className="text-5xl text-primary">
           <RiDoubleQuotesL />
