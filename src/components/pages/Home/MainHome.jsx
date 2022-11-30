@@ -7,7 +7,7 @@ import adobexd from "./assets/adobexd.png"
 function MainHome() {
   return (
     <section className="min-h-[92vh] grid grid-cols-1 md:grid-cols-8  gap-8 md:gap-0">
-                <div className=" md:col-span-5 flex items-center justify-center p-12">
+                <div className=" md:col-span-5 flex items-center justify-center p-12 ">
                     <div className="flex flex-col gap-16 hover:gap-20">
                         <h1 className="text-[#27446f] text-6xl font-bold leading-[7rem]">
                             We Design Impactful Digital <span className="text-primary p-2 border-8 border-primary ">Products</span>
@@ -18,7 +18,9 @@ function MainHome() {
                             service.
                         </p>
                         <div className="flex flex-col md:flex-row items-center gap-4">
-                            <button  className="xl:w-auto bg-primary text-white py-2 px-8 rounded-xl text-xl inline">Contact Us</button>
+                            {/*border-primary rounded-xl border-2*/}
+                            <button  className="before:hover:scale-x-100 duration-700 transition relative before:transition before:duration-500 before:origin-top-left before:ease-in before:scale-x-0 before:-z-10 before:absolute before:left-0 before:top-0 before:w-full before:h-full before:bg-primary border-primary border-2 xl:w-auto text-primary py-2 px-8 text-xl inline hover:text-white">Contact Us</button>
+                            {/*<button  className="xl:w-auto bg-primary text-white py-2 px-8 rounded-xl text-xl inline">Contact Us</button>*/}
                             <button  className="flex items-center gap-4 py-2 px-8 rounded-xl text-xl">
                                 <RiPlayFill className="bg-[#c2edff] text-primary p-4 box-content rounded-full"/> Watch our video
                             </button>

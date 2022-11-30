@@ -18,5 +18,10 @@ export const MenuItems = [
         title: 'Basic Game',
         path: '/basicGame',
         cName: 'dropdown-link'
+    },
+    {
+        title: 'Huella Personal',
+        path: '/huellaPersonal',
+        cName: 'dropdown-link'
     }
 ]

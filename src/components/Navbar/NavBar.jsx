@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 
+import {MenuItems} from './MenuItems'
+
 import Button from './Button'
 import DropDown from './DropDown'
 
@@ -32,7 +34,7 @@ function NavBar(){
     <>
       <nav className='navbar'>
         <Link to='/home' className='navbar-logo'>
-          Epic <i className='fab fa-firstdraft'/>
+          Pool <i className='fab fa-firstdraft'/>
         </Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={Click ? 'fas fa-times': 'fas fa-bars'}/>
@@ -45,7 +47,7 @@ function NavBar(){
             <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
               Projects <i className='fas fa-caret-down'></i>
             </Link>
-            {Dropdown && <DropDown/>}
+            {Dropdown && <DropDown items={MenuItems}/>}
           </li>
           <li className='nav-item'>
             <Link to='/aboutUs' className='nav-links' onClick={closeMobileMenu}>About</Link>

@@ -2,6 +2,13 @@ import React from 'react'
 import { RiMailFill, RiSmartphoneFill, RiMacFill } from "react-icons/ri";
 
 function Services() {
+  const a1={
+    position: "absolute",
+    top: "0",
+    left: "0",
+    width: "100%",
+    overflow: "hidden",
+  }
   return (
     <div
       id="services"

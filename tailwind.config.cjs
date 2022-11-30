@@ -10,6 +10,9 @@ module.exports = {
       colors:{
         primary: "#34c4dc",
         secondary: "#226292",
+        a2g_opaque: "#059EA3",
+        a2g_soft: "#76CCBB",
+        a2g_light: "#10CC67"
       },
       keyframes:{
         wiggle: {

@@ -9,6 +9,8 @@ import NoteBlog from './components/pages/NoteBlog'
 import WaterFootprint from './components/pages/WaterFootprint'
 import EPS_Landing from './components/pages/EPS_Landing'
 import BasicGame from './components/pages/BasicGame'
+import HuellaPersonal from './components/pages/HuellaPersonal'
+
 
 function App(){
   return (
@@ -24,6 +26,7 @@ function App(){
         <Route path='/waterFootprint' exact element={<WaterFootprint/>}/>
         <Route path='/epsLanding' exact element={<EPS_Landing/>}/>
         <Route path='/basicGame' exact element={<BasicGame/>}/>
+        <Route path='/huellaPersonal' exact element={<HuellaPersonal/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
